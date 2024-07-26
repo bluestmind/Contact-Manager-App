@@ -1,0 +1,115 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f8f8; /* Light mint green background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #4caf50; /* Mint green color for headers */
+  text-align: center; /* Center align headers */
+}
+
+button {
+  background-color: #4caf50; /* Mint green button background */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker mint green on hover */
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.close {
+  color: #4caf50;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #4caf50; /* Mint green border on focus */
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #e8f5e9; /* Light mint green for headers */
+}
+
+tr:nth-child(even) {
+  background-color: #f1f8f4; /* Very light mint green for even rows */
+}
+
+tr:hover {
+  background-color: #d9fdd3; /* Light mint green on hover */
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  background-color: #4caf50; /* Mint green button background */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Slightly darker mint green on hover */
+}
